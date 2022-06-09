@@ -424,6 +424,11 @@
   "resolved" "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
   "version" "0.0.29"
 
+"@types/node@>=8.1.0":
+  "integrity" "sha512-xA6drNNeqb5YyV5fO3OAEsnXLfO7uF0whiOfPTz5AeDo8KeZFmODKnvwPymMNO8qE/an8pVY/O50tig2SQCrGw=="
+  "resolved" "https://registry.npmjs.org/@types/node/-/node-17.0.41.tgz"
+  "version" "17.0.41"
+
 "@typescript-eslint/parser@^5.21.0":
   "integrity" "sha512-7Va2ZOkHi5NP+AZwb5ReLgNF6nWLGTeUJfxdkVUAPPSaAdbWNnFZzLZ4EGGmmiCTg+AwlbE1KyUYTBglosSLHQ=="
   "resolved" "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.27.1.tgz"
@@ -619,6 +624,11 @@
   "integrity" "sha512-NZBql38Pzd+rAu5SPXv+qmTWGQuFsRiemHCJCAPvkoDxWV19/xqL2YHF32fDJ9SDLdLqfax8+S0CO3ncDCp9Iw=="
   "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001350.tgz"
   "version" "1.0.30001350"
+
+"canvas-confetti@^1.5.1":
+  "integrity" "sha512-Ncz+oZJP6OvY7ti4E1slxVlyAV/3g7H7oQtcCDXgwGgARxPnwYY9PW5Oe+I8uvspYNtuHviAdgA0LfcKFWJfpg=="
+  "resolved" "https://registry.npmjs.org/canvas-confetti/-/canvas-confetti-1.5.1.tgz"
+  "version" "1.5.1"
 
 "capture-stack-trace@^1.0.0":
   "integrity" "sha512-mYQLZnx5Qt1JgB1WEiMCf2647plpGeQ2NMR/5L0HNZzGQo4fuSPnK+wjfPnKZV0aiJDgzmWqqkV/g7JD+DW0qw=="
@@ -1892,6 +1902,13 @@
   "resolved" "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz"
   "version" "2.1.1"
 
+"qs@^6.10.3":
+  "integrity" "sha512-O5RlPh0VFtR78y79rgcgKK4wbAI0C5zGVLztOIdpWX6ep368q5Hv6XRxDvXuZ9q3C6v+e3n8UfZZJw7IIG27eQ=="
+  "resolved" "https://registry.npmjs.org/qs/-/qs-6.10.5.tgz"
+  "version" "6.10.5"
+  dependencies:
+    "side-channel" "^1.0.4"
+
 "querystringify@^2.1.1":
   "integrity" "sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ=="
   "resolved" "https://registry.npmjs.org/querystringify/-/querystringify-2.2.0.tgz"
@@ -2144,6 +2161,14 @@
   "integrity" "sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig=="
   "resolved" "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz"
   "version" "3.1.1"
+
+"stripe@^9.7.0":
+  "integrity" "sha512-e64zqFzodh/AygIuDb3AQQFqroEkueX0ZKq2uoiqOHwtxPx4qEWf7qv2l9hloXaV7mmzmtHPAk5VKOCMPCP7+w=="
+  "resolved" "https://registry.npmjs.org/stripe/-/stripe-9.7.0.tgz"
+  "version" "9.7.0"
+  dependencies:
+    "@types/node" ">=8.1.0"
+    "qs" "^6.10.3"
 
 "styled-jsx@5.0.2":
   "integrity" "sha512-LqPQrbBh3egD57NBcHET4qcgshPks+yblyhPlH2GY8oaDgKs8SK4C3dBh3oSJjgzJ3G5t1SYEZGHkP+QEpX9EQ=="
